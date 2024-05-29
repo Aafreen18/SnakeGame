@@ -1,0 +1,48 @@
+#boundary {
+    position: absolute;
+    width: 700px;  
+    height: 500px;  
+    border: 2px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(19, 122, 19);
+}
+
+.snake-segment, #snake, #circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+#snake {
+    background-color: red;
+}
+
+.snake-segment {
+    background-color: green;
+}
+
+#circle {
+    background-color:yellow;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+}
+
+#game-over {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
